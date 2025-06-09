@@ -1,0 +1,2135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Mirrored from html.themewant.com/elever/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 May 2025 12:26:01 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/2.png">
+    <title>Ras Construction</title>
+    <!-- fontawesome css -->
+    <link rel="stylesheet" preload href="assets/css/plugins/fontawesome.css">
+    <link rel="stylesheet" preload href="assets/css/plugins/aos.css">
+    <!-- swiper css-->
+    <link rel="stylesheet" preload href="assets/css/plugins/odometer.css">
+    <link rel="stylesheet" preload href="assets/css/plugins/swiper.css">
+    <link rel="stylesheet" preload href="assets/css/plugins/metismenu.css">
+    <link rel="stylesheet" preload href="assets/css/plugins/magnifying-popup.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" preload href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css here -->
+    <link rel="stylesheet" preload href="assets/css/style.css">
+    <style>
+        .banner-swiper-area-one {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            min-height: 100svh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .banner-area-one-start {
+            position: relative;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            min-height: 100svh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-area-one-start.bg_image {
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .swiper-slide {
+            width: 100vw;
+            height: 100vh;
+            min-height: 100svh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-inner-content-one {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0 2vw;
+            margin: 0;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        /* If you use <img> for banners, make them cover */
+        .banner-area-one-start img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            min-height: 100svh;
+        }
+
+        .banner-inner-content-one .pre {
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            display: inline-block;
+            position: relative;
+            padding-left: 15px;
+        }
+        .banner-inner-content-one .pre::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            background: #fff;
+            border-radius: 50%;
+        }
+        .banner-inner-content-one .title {
+            font-size: 60px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .banner-inner-content-one .disc {
+            font-size: 18px;
+            color: #fff;
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            opacity: 0.5;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #fff;
+        }
+        @media (max-width: 991px) {
+            .banner-inner-content-one .title {
+                font-size: 40px;
+            }
+            .banner-inner-content-one .disc {
+                font-size: 16px;
+                max-width: 100%;
+            }
+            .banner-inner-content-one .pre {
+                font-size: 16px;
+            }
+            .banner-inner-content-one {
+                max-width: 90vw;
+            }
+        }
+        @media (max-width: 767px) {
+            .banner-inner-content-one .title {
+                font-size: 32px;
+            }
+            .banner-inner-content-one .disc {
+                font-size: 14px;
+            }
+            .banner-inner-content-one .pre {
+                font-size: 14px;
+            }
+            .banner-inner-content-one {
+                max-width: 98vw;
+            }
+        }
+        @media (max-width: 575px) {
+            .banner-inner-content-one .title {
+                font-size: 24px;
+            }
+            .banner-inner-content-one .disc {
+                font-size: 13px;
+            }
+            .banner-inner-content-one .pre {
+                font-size: 11px;
+            }
+            .banner-inner-content-one {
+                max-width: 100vw;
+                padding: 0 8px;
+            }
+        }
+        
+        /* New Bold Navbar Styles */
+        .heder-one {
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: transparent !important;
+            backdrop-filter: none;
+            box-shadow: none;
+            border-radius: 0;
+        }
+        
+        .header--sticky {
+            background: rgba(255, 255, 255, 0.95); /* keep sticky with background for readability */
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+        }
+
+        .header-two-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        .header-main-wrapper {
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .logo-area {
+            position: relative;
+            z-index: 2;
+            flex: 0 0 180px;
+        }
+
+        .logo-area img {
+            height: 145px;
+            max-height: 100%;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .nav-area {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-area ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            margin: 0;
+            padding: 4px 16px;
+            border: 1.5px solid rgba(255,255,255,0.25);
+            border-radius: 12px;
+            background: transparent;
+            align-items: center;
+        }
+
+        .nav-area ul li {
+            position: relative;
+        }
+
+        .nav-area ul li a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s, border 0.3s;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: none;
+            background: transparent;
+            box-shadow: none;
+            display: inline-block;
+            position: relative;
+        }
+        .nav-area ul li a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            background: #ff6b6b;
+            transition: width 0.3s;
+        }
+        .nav-area ul li a:hover, .nav-area ul li a:focus {
+            color: #fff;
+        }
+        .nav-area ul li a:hover::after, .nav-area ul li a:focus::after {
+            width: 100%;
+        }
+
+        .right-area {
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+            flex: 0 0 220px;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .nav-btn {
+            display: none;
+            cursor: pointer;
+            width: 30px;
+            height: 20px;
+            position: relative;
+        }
+
+        .nav-btn span {
+            display: block;
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn span:nth-child(1) { top: 0; }
+        .nav-btn span:nth-child(2) { top: 50%; transform: translateY(-50%); }
+        .nav-btn span:nth-child(3) { bottom: 0; }
+
+        .nav-btn:hover span:nth-child(1) { transform: translateY(2px); }
+        .nav-btn:hover span:nth-child(3) { transform: translateY(-2px); }
+
+        @media (max-width: 991px) {
+            .header-two-container {
+                padding: 0 10px;
+            }
+
+            .nav-area {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background: rgba(255,255,255,0.98);
+                padding: 80px 40px;
+                transition: all 0.4s ease;
+                box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
+            }
+
+            .nav-area.active {
+                right: 0;
+            }
+
+            .nav-area ul {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .nav-btn {
+                display: block;
+            }
+
+            .logo-area {
+                flex: 0 0 150px;
+            }
+
+            .logo-area img {
+                height: 100px;
+                max-height: 100%;
+            }
+
+            .get-quote-btn {
+                padding: 8px 18px;
+                font-size: 14px;
+            }
+        }
+
+        /* Contact Info Bar */
+        .contact-bar {
+            background: #ff6b6b;
+            padding: 8px 0;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .contact-bar .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 30px;
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            color: #000;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+
+        .social-links a:hover {
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .header-two-container,
+            .contact-bar .container {
+                padding: 0 20px;
+            }
+            
+            .contact-bar .container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+
+        /* Add new navbar styles */
+        .custom-navbar {
+            width: 100%;
+            background: transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            width: 100%;
+            pointer-events: auto;
+            box-shadow: none;
+        }
+        .navbar-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 40px;
+            height: 70px;
+        }
+        .logo-area img {
+            height: 145px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+        .nav-area ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            margin: 0;
+            padding: 4px 16px;
+            border: 1.5px solid rgba(255,255,255,0.25);
+            border-radius: 12px;
+            background: transparent;
+            align-items: center;
+        }
+        .nav-area ul li a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s, border 0.3s;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: none;
+            background: transparent;
+            box-shadow: none;
+            display: inline-block;
+            position: relative;
+        }
+        .nav-area ul li a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            background: #ff6b6b;
+            transition: width 0.3s;
+        }
+        .nav-area ul li a:hover, .nav-area ul li a:focus {
+            color: #fff;
+        }
+        .nav-area ul li a:hover::after, .nav-area ul li a:focus::after {
+            width: 100%;
+        }
+        @media (max-width: 991px) {
+            .navbar-container {
+                padding: 0 10px;
+                height: 56px;
+            }
+            .logo-area img {
+                height: 40px;
+            }
+            .nav-area ul {
+                gap: 12px;
+                padding: 2px 6px;
+                border-radius: 8px;
+            }
+            .nav-area ul li a {
+                font-size: 13px;
+                padding: 1px 4px;
+                border-radius: 3px;
+            }
+        }
+        /* Add marquee animation */
+        .marquee {
+            width: 100%;
+            overflow: visible;
+            position: relative;
+            height: auto;
+            min-height: 60px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .marquee-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 18s linear infinite;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #222;
+            letter-spacing: 2px;
+            line-height: normal;
+            overflow: visible;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        /* Add improved card style */
+        .single-service-one {
+            background: rgba(0,0,0,0.7);
+            color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s, transform 0.3s;
+            min-height: 420px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .single-service-one:hover {
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.15);
+            transform: translateY(-6px) scale(1.03);
+        }
+        .single-service-one .icon img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+            filter: brightness(0) invert(1);
+        }
+        .swiper-wrapper {
+            display: flex;
+            align-items: stretch;
+        }
+        .swiper-slide {
+            display: flex;
+            height: 100%;
+        }
+        .rts-section-gap {
+            padding: 40px 0 !important;
+        }
+        @media (max-width: 991px) {
+            .rts-section-gap {
+                padding: 30px 0 !important;
+            }
+        }
+        @media (max-width: 767px) {
+            .rts-section-gap {
+                padding: 20px 0 !important;
+            }
+        }
+        /* Aggressively reduce space in testimonials section */
+        .rts-testimonials-area .row,
+        .rts-testimonials-area .col-lg-12,
+        .rts-testimonials-area .title-center-style-one {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .rts-testimonials-area .title-center-style-one .title {
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .rts-testimonials-area .container {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+        }
+        .rts-testimonials-area > .container:first-child {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        .rts-testimonials-area .row.g-24,
+        .rts-testimonials-area .row.g-24.mt--30 {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        .rts-testimonials-area .swiper-silder-testimonials-wrapper {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        .rts-testimonials-area .title-center-style-one {
+            margin-bottom: 5px !important;
+            padding-bottom: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR START -->
+<header class="custom-navbar">
+    <div class="navbar-container">
+        <div class="logo-area">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/2.png" alt="image-logo">
+            </a>
+        </div>
+        <nav class="nav-area">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- NAVBAR END -->
+
+    <!-- header area start -->
+    <!-- REMOVE FROM HERE -->
+    <!-- <header class="heder-one header--sticky">
+        <div class="header-two-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-main-wrapper">
+                        <div class="logo-area">
+                            <a href="index.html" class="logo">
+                                <img src="assets/images/logo/2.png" alt="image-logo">
+                            </a>
+                        </div>
+                        <div class="rts-header-right  position-static">
+                            <div class="nav-area">
+                                <ul>
+                                    <li class="main-nav">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="main-nav">
+                                        <a href="service.html">Service</a>
+                                    </li>
+                                    <li class="main-nav">
+                                        <a href="project.html">Project</a>
+                                    </li>
+                                    <li class="main-nav">
+                                        <a href="blog-grid.html">Blog</a>
+                                    </li>
+                                    <li class="main-nav">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right-area">
+                                <a href="contact.html" class="get-quote-btn">Get a Quote</a>
+                                <div class="nav-btn menu-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!-- REMOVE TO HERE -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="assets/images/banner/04.jpg" alt="elevate">
+            </div>
+            <div class="inner-content">
+                <h4 class="title">We Build Building and Great Constructive Homes.</h4>
+                <p class="disc">
+                    We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly
+                    master new technologies.
+                </p>
+                <div class="footer">
+                    <h4 class="title">Got a project in mind?</h4>
+                    <a href="contact.html" class="rts-btn btn-primary">Let's talk</a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Home</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="index.html">Demo Construction</a></li>
+                            <li><a href="index-two.html">Demo Construction</a></li>
+                            <li><a href="index-three.html">Demo Renovation</a></li>
+                            <li><a href="index-four.html">Demo Building</a></li>
+                            <li><a href="index-five.html">Demo Interior</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="company-history.html">Company
+                                    History</a></li>
+                            <li><a href="company-values.html">Company
+                                    Values</a></li>
+                            <li><a href="our-office.html">Our
+                                    Office</a></li>
+                            <li><a href="our-clients.html">Our
+                                    Clients</a></li>
+                            <li><a href="faq.html">FAQ'S</a>
+                            </li>
+                            <li><a href="project.html">Project</a></li>
+                            <li><a href="project-details.html">Project
+                                    Details</a>
+                            </li>
+                            <li><a href="blog-grid.html">Blog Grid</a>
+                            </li>
+                            <li><a href="blog-list.html">Blog List</a>
+                            </li>
+                            <li><a href="blog-details.html">Blog
+                                    Details</a></li>
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="team.html">Our
+                                    Team</a></li>
+                            <li><a href="team-details.html">Team
+                                    Details</a></li>
+                            <li><a href="appoinment.html">Appointment</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Services</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="service.html">Service</a></li>
+                            <li><a class="mobile-menu-link" href="service-single.html">Service Single</a></li>
+                            <li><a class="mobile-menu-link" href="service-single-two.html">Service Single 2</a></li>
+                            <li><a class="mobile-menu-link" href="service-single-three.html">Service Single 3</a></li>
+                            <li><a class="mobile-menu-link" href="service-single-four.html">Service Single 4</a></li>
+                            <li><a class="mobile-menu-link" href="service-single-five.html">Service Single 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Projects</a>
+                        <ul class="submenu mm-collapse">
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Types</a>
+                                <ul class="submenu-third-lvl mm-collapse">
+                                    <li><a href="project.html"></a>Project</li>
+                                    <li><a href="project-slider.html"></a>Project Slider</li>
+                                    <li><a href="project-slider-2.html"></a>Project Slider 2</li>
+                                    <li><a href="project-slider-3.html"></a>Project Slider 3</li>
+                                    <li><a href="project-list.html"></a>Project List</li>
+                                    <li><a href="project-card.html"></a>Project Card</li>
+                                </ul>
+                            </li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Layouts</a>
+                                <ul class="submenu-third-lvl mm-collapse">
+                                    <li><a href="project-two-column.html"></a>Project 2 Columns</li>
+                                    <li><a href="project-three-column.html"></a>Project 3 Columns</li>
+                                    <li><a href="project-two-column-wide.html"></a>Project 2 Columns Wide</li>
+                                    <li><a href="project-three-column-wide.html"></a>Project 3 Columns Wide</li>
+                                    <li><a href="project-four-column.html"></a>Project 4 Columns </li>
+                                    <li><a href="project-four-column-wide.html"></a>Project 4 Columns Wide </li>
+                                </ul>
+                            </li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Hover Type</a>
+                                <ul class="submenu-third-lvl mm-collapse">
+                                    <li><a href="project-hide-content-col-3.html"></a>Project Hide Content</li>
+                                    <li><a href="project-hide-content.html"></a>Project Hide Content wide</li>
+                                    <li><a href="project-card-hover.html"></a>Project Card Hover</li>
+                                    <li><a href="project-zoom-slider.html"></a>Project Slider Image Zoom</li>
+                                    <li><a href="project-hide-show.html"></a>Project Hide Show</li>
+                                    <li><a href="project-slider-hover.html"></a>Project Slider Hover</li>
+                                </ul>
+                            </li>
+                            <li class="has-droupdown third-lvl">
+                                <a class="main" href="#">Singles</a>
+                                <ul class="submenu-third-lvl mm-collapse">
+                                    <li><a href="project-details.html"></a>Project Detials</li>
+                                    <li><a href="project-details-2.html"></a>Project Detials Video</li>
+                                    <li><a href="project-details-3.html"></a>Project Detials Slider</li>
+                                    <li><a href="project-details-large-image.html"></a>Large Image</li>
+                                    <li><a href="project-details-gallery.html"></a>Project Gallery</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Shop Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="shop.html"></a>Shop</li>
+                            <li><a href="cart.html"></a>Cart</li>
+                            <li><a href="checkout.html"></a>Checkout</li>
+                            <li><a href="account.html"></a>Account</li>
+                            <li><a href="single-product.html"></a>Shop Single</li>
+                            <li><a href="single-product-left.html"></a>Shop Single Left</li>
+                            <li><a href="single-product-right.html"></a>Shop Single Right</li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Blog</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-list.html">Blog List</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="main">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social-wrapper-one">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header area end -->
+
+
+    <!-- banner swiper wrapper area srart -->
+    <div class="banner-swiper-area-one">
+        <div class="swiper mySwiper-banner-one" dir="ltr">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- banner area one start -->
+                    <div class="banner-area-one-start rts-section-gap bg_banner-one bg_image" style="background-image: url('assets/images/banner/98.jpeg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- banner inner content area -->
+                                    <div class="banner-inner-content-one">
+                                        <span class="pre">Building The Better Future</span>
+                                        <h1 class="title">Build Your Dream Project with Us Today!</h1>
+                                        <p class="disc">We are dedicated to building structures that last and relationships that endure. With a focus on quality, precision, and innovation, we provide a full range of construction services.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- banner area one start -->
+                    <div class="banner-area-one-start rts-section-gap two bg_banner-one bg_image" style="background-image: url('assets/images/banner/99.jpeg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- banner inner content area -->
+                                    <div class="banner-inner-content-one">
+                                        <span class="pre">Excellence in Construction</span>
+                                        <h1 class="title">Transforming Visions into Reality</h1>
+                                        <p class="disc">From concept to completion, we deliver exceptional construction services with unmatched expertise and attention to detail.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- banner area one start -->
+                    <div class="banner-area-one-start rts-section-gap three bg_banner-one bg_image" style="background-image: url('assets/images/banner/100.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- banner inner content area -->
+                                    <div class="banner-inner-content-one">
+                                        <span class="pre">Your Trusted Partner</span>
+                                        <h1 class="title">Quality Construction Services</h1>
+                                        <p class="disc">Experience the difference with our comprehensive construction solutions, backed by years of industry expertise.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination banner-pagination"></div>
+        </div>
+    </div>
+    <!-- banner swiper wrapper area end -->
+
+
+    <!-- fun facts area starts -->
+    <div class="fun-facts-area rts-section-gap">
+        <div class="container">
+            <div class="row g-24">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-fun-facts-area">
+                        <div class="icons">
+                            <img src="assets/images/service/01.svg" alt="service">
+                        </div>
+                        <h2 class="counter title"><span class="odometer" data-count="1200">00</span>+
+                        </h2>
+                        <p class="disc">
+                            Over 1,000 projects successfully delivered, from residential homes to large developments...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-fun-facts-area">
+                        <div class="icons">
+                            <img src="assets/images/service/02.svg" alt="service">
+                        </div>
+                        <h2 class="counter title"><span class="odometer" data-count="85">00</span>%
+                        </h2>
+                        <p class="disc">
+                            85% of clients return for future projects, demonstrating our commitment to quality...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="single-fun-facts-area">
+                        <div class="icons">
+                            <img src="assets/images/service/03.svg" alt="service">
+                        </div>
+                        <h2 class="counter title"><span class="odometer" data-count="20">00</span>%
+                        </h2>
+                        <p class="disc">
+                            Consistent 20% annual revenue growth over the past five years, reflecting our expanding...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fun facts area end -->
+
+
+    <div class="about-company-service-area rts-about-company-area rts-section-gap bg_image bg-dark">
+        <div class="about-section-area rts-section-gapBottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-thumbnail-inner-one">
+                            <div class="reveal-item overflow-hidden aos-init">
+                                <div class="reveal-animation reveal-end reveal-primary aos aos-init"
+                                    data-aos="reveal-end">
+                                </div>
+                                <img src="assets/images/about/01.webp" alt="journey-area">
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="single">
+                                    <!-- <h5 class="title">500+</h5> -->
+                                    <h2 class="counter title"><span class="odometer" data-count="500">00</span>+
+                                    </h2>
+                                    <span class="pp">Complete Projects</span>
+                                </div>
+                                <div class="single primary">
+                                    <h2 class="counter title"><span class="odometer" data-count="48">00</span>+
+                                    </h2>
+                                    <span class="pp">Award Winning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pl--80 pl_md--15 pl_sm--10 pt_md--25 mt_sm--25">
+                        <div class="about-inner-area-content-one">
+                            <span class="pre">About our Company</span>
+                            <h2 class="title">Delivering our clients more
+                                project clarity, greater insight,
+                                and less chaos.</h2>
+                            <p class="disc">
+                                RAS Construction and Project Management is a leading contractor based in Abu Dhabi, specializing in a wide range of construction services. We offer a complete "one-stop-shop" solution, providing Design & Build, Traditional, and Turnkey contracts for complex projects across the GCC. Our team is committed to safety and efficiency, fostering a "Think Safety, Work Safely" culture throughout the company. With strong technical expertise and advanced manufacturing capabilities, we focus on various sectors including Main Contracting, MEP, Infrastructure, Facade Works, Fit-Outs, Waterproofing, and more. Additionally, our specialized teams excel in manufacturing GRC, GRP, GRG, UHPC, Aluminium & Glazing, Joinery, Precast Building Components, and Building Materials.
+                            </p>
+                            
+                            <a href="" class="rts-btn btn-primary border">Explore More <img
+                                    src="assets/images/icons/arrow-up-right-2.svg" alt="service"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-full" dir="ltr">
+            <div class="marque-wrapper one">
+                <div class="marquee">
+                    <span class="marquee-text">Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;Ras Construction&nbsp;</span>
+                </div>
+            </div>
+        </div>
+        <div class="service-section-area">
+            <div class="container">
+                <div class="row rts-section-gapTop">
+                    <div class="col-lg-12">
+                        <div class="title-center-style-one">
+                            <span class="pre">What We Offer</span>
+                            <h2 class="title">Explore Our Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt--40">
+                        <div class="swiper-area-wrapper" dir="ltr">
+                            <div class="swiper mySwiper-service-one">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="single-service-one">
+                                            <div class="icon">
+                                                <img src="assets/images/service/04.svg" alt="service">
+                                            </div>
+                                            <div class="inner">
+                                                <h5 class="title">Main Contracting</h5>
+                                                <p class="disc">
+                                                    Comprehensive project management and execution for all construction projects, ensuring quality and timely delivery.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="single-service-one">
+                                            <div class="icon">
+                                                <img src="assets/images/service/05.svg" alt="service">
+                                            </div>
+                                            <div class="inner">
+                                                <h5 class="title">MEP</h5>
+                                                <p class="disc">
+                                                    Mechanical, Electrical, and Plumbing solutions tailored for modern buildings, focusing on efficiency and sustainability.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="single-service-one">
+                                            <div class="icon">
+                                                <img src="assets/images/service/06.svg" alt="service">
+                                            </div>
+                                            <div class="inner">
+                                                <h5 class="title">Facade Contracting</h5>
+                                                <p class="disc">
+                                                    Innovative facade solutions for aesthetics, energy efficiency, and durability in all types of structures.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="single-service-one">
+                                            <div class="icon">
+                                                <img src="assets/images/service/05.svg" alt="service">
+                                            </div>
+                                            <div class="inner">
+                                                <h5 class="title">Infrastructure</h5>
+                                                <p class="disc">
+                                                    End-to-end infrastructure development including roads, utilities, and site preparation for large-scale projects.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="single-service-one">
+                                            <div class="icon">
+                                                <img src="assets/images/service/04.svg" alt="service">
+                                            </div>
+                                            <div class="inner">
+                                                <h5 class="title">Aluminum and Glazing</h5>
+                                                <p class="disc">
+                                                    High-quality aluminum and glazing works for windows, doors, and curtain walls, combining strength and design.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"><i class="fa-sharp-duotone fa-light fa-arrow-right"></i></div>
+                                <div class="swiper-button-prev"><i class="fa-sharp-duotone fa-light fa-arrow-left"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- why choose us area start -->
+    <div class="why-choose-us-area rts-section-gap demo-1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-12 pr--60 pr_md--0 pr_sm--0">
+                    <div class="reveal-item overflow-hidden aos-init">
+                        <div class="reveal-animation reveal-end reveal-primary aos aos-init" data-aos="reveal-end">
+                        </div>
+                        <img src="assets/images/service/01.webp" alt="journey-area">
+                        <div class="vedio-icone">
+                            <!-- <a class="video-play-button play-video" href="#">
+                                <span> <b></b> Watch Video</span>
+                            </a> -->
+                            <div class="video-overlay">
+                                <a class="video-overlay-close">×</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12 pt_md--30 pt_sm--50">
+                    <div class="how-we-works-wrappers">
+                        <div class="title-wrapper-left mb--50">
+                            <span class="pre">How We Works</span>
+                            <h2 class="title">
+                                How To Work With Elever <br>
+                                Construction Builder
+                            </h2>
+                        </div>
+                        <div class="single-choose-us-one">
+                            <div class="icon">
+                                <img src="assets/images/service/07.svg" alt="service">
+                                <span>1</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <h5 class="title">Consultation & Planning</h5>
+                                <p class="disc">We begin with a thorough consultation to understand your vision, budget,
+                                    and project goals. Our team works with you to develop a tailored plan</p>
+                            </div>
+                        </div>
+                        <div class="single-choose-us-one">
+                            <div class="icon">
+                                <img src="assets/images/service/08.svg" alt="service">
+                                <span>2</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <h5 class="title">Design & Pre-Construction</h5>
+                                <p class="disc">We begin with a thorough consultation to understand your vision, budget,
+                                    and project goals. Our team works with you to develop a tailored plan</p>
+                            </div>
+                        </div>
+                        <div class="single-choose-us-one">
+                            <div class="icon">
+                                <img src="assets/images/service/09.svg" alt="service">
+                                <span>3</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <h5 class="title">Construction & Delivery</h5>
+                                <p class="disc">We begin with a thorough consultation to understand your vision, budget,
+                                    and project goals. Our team works with you to develop a tailored plan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- why choose us area end -->
+
+
+    <!-- portfolio team area start -->
+    <div class="portfolio-team-area-bg rts-section-gap bg_image bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-center-style-one">
+                        <span class="pre">Recent Projects</span>
+                        <h2 class="title">Our Completed Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt--40">
+            <div class="col-lg-12">
+                <div class="swiper-wrapper-project">
+                    <div class="swiper mySwiper-project-1" dir="ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!-- single project area start -->
+                                <div class="project-area-start-1">
+                                    <a href="project-details.html" class="thumbnail">
+                                        <img src="assets/images/portfolio/02.webp" alt="">
+                                    </a>
+                                    <div class="inner-content-project">
+                                        <a href="project-details.html">
+                                            <h2 class="title">Azila Mansion</h2>
+                                        </a>
+                                        <p class="location">Luxury Residences, Modern Homes</p>
+                                        <a href="#" class="location"><i class="fa-sharp fa-regular fa-location-dot"></i>
+                                            Dubai Marina</a>
+                                        <div class="thumb-wrapper">
+                                            <div class="single">
+                                                <span>Price:</span>
+                                                <p>From $290k</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Client:</span>
+                                                <p>RC Builders</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Project Year:</span>
+                                                <p>15 Oct 2019</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Duration:</span>
+                                                <p>5Y, 3M</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- single project area end -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- single project area start -->
+                                <div class="project-area-start-1">
+                                    <a href="project-details.html" class="thumbnail">
+                                        <img src="assets/images/portfolio/03.webp" alt="">
+                                    </a>
+                                    <div class="inner-content-project">
+                                        <a href="project-details.html">
+                                            <h2 class="title">Azila Mansion</h2>
+                                        </a>
+                                        <p class="location">Luxury Residences, Modern Homes</p>
+                                        <a href="#" class="location"><i class="fa-sharp fa-regular fa-location-dot"></i>
+                                            Dubai Marina</a>
+                                        <div class="thumb-wrapper">
+                                            <div class="single">
+                                                <span>Price:</span>
+                                                <p>From $290k</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Client:</span>
+                                                <p>RC Builders</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Project Year:</span>
+                                                <p>15 Oct 2019</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Duration:</span>
+                                                <p>5Y, 3M</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- single project area end -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- single project area start -->
+                                <div class="project-area-start-1">
+                                    <a href="project-details.html" class="thumbnail">
+                                        <img src="assets/images/portfolio/04.webp" alt="">
+                                    </a>
+                                    <div class="inner-content-project">
+                                        <a href="project-details.html">
+                                            <h2 class="title">Azila Mansion</h2>
+                                        </a>
+                                        <p class="location">Luxury Residences, Modern Homes</p>
+                                        <a href="#" class="location"><i class="fa-sharp fa-regular fa-location-dot"></i>
+                                            Dubai Marina</a>
+                                        <div class="thumb-wrapper">
+                                            <div class="single">
+                                                <span>Price:</span>
+                                                <p>From $290k</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Client:</span>
+                                                <p>RC Builders</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Project Year:</span>
+                                                <p>15 Oct 2019</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Duration:</span>
+                                                <p>5Y, 3M</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- single project area end -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- single project area start -->
+                                <div class="project-area-start-1">
+                                    <a href="project-details.html" class="thumbnail">
+                                        <img src="assets/images/portfolio/04.webp" alt="">
+                                    </a>
+                                    <div class="inner-content-project">
+                                        <a href="project-details.html">
+                                            <h2 class="title">Azila Mansion</h2>
+                                        </a>
+                                        <p class="location">Luxury Residences, Modern Homes</p>
+                                        <a href="#" class="location"><i class="fa-sharp fa-regular fa-location-dot"></i>
+                                            Dubai Marina</a>
+                                        <div class="thumb-wrapper">
+                                            <div class="single">
+                                                <span>Price:</span>
+                                                <p>From $290k</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Client:</span>
+                                                <p>RC Builders</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Project Year:</span>
+                                                <p>15 Oct 2019</p>
+                                            </div>
+                                            <div class="single">
+                                                <span>Duration:</span>
+                                                <p>5Y, 3M</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- single project area end -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- team area start -->
+        <div class="rts-team-area-start rts-section-gapTop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-center-style-one">
+                            <span class="pre">Expert Team Members</span>
+                            <h2 class="title">Meet The Awesome Team</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-24 mt--20">
+                    <div class="col-xl-6">
+                        <div class="single-team-single-area">
+                            <a href="team-details.html" class="thumbnail">
+                                <!-- <img src="assets/images/team/01.webp" alt="team"> -->
+                            </a>
+                            <div class="inner-content-area">
+                                <!-- <a href="team-details.html">
+                                    <h3 class="title">Henry George</h3>
+                                </a>
+                                <span class="desig">Safety Officer</span> -->
+                                <p class="disc">
+                                    Highly skilled and experienced construction expert, known for his deep expertise in
+                                    managing large-scale construction projects
+                                </p>
+                                <div class="social-area-wrapper">
+                                    <!-- <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="single-team-single-area list">
+                            <a href="team-details.html" class="thumbnail">
+                                <!-- <img src="assets/images/team/02.webp" alt="team"> -->
+                            </a>
+                            <div class="inner-content-area">
+                                <!-- <a href="team-details.html">
+                                    <h3 class="title">Thomas Bryant</h3>
+                                </a>
+                                <span class="desig">Civil Engineer</span> -->
+                                <p class="disc">
+                                    Highly skilled and experienced construction expert, known for his deep expertise in
+                                    managing large-scale construction projects
+                                </p>
+                                <div class="social-area-wrapper">
+                                    <!-- <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-team-single-area list">
+                            <a href="team-details.html" class="thumbnail">
+                                <img src="assets/images/team/03.webp" alt="team">
+                            </a>
+                            <div class="inner-content-area">
+                                <!-- <a href="team-details.html">
+                                    <h3 class="title">Benjamin Clarke</h3>
+                                </a>
+                                <span class="desig"> Project Coordinator</span> -->
+                                <p class="disc">
+                                    Highly skilled and experienced construction expert, known for his deep expertise in
+                                    managing large-scale construction projects
+                                </p>
+                                <div class="social-area-wrapper">
+                                    <!-- <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team area start end -->
+    </div>
+    <!-- portfolio team area ends -->
+
+    <!-- rts testimonials area start -->
+    <div class="rts-testimonials-area rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-center-style-one dark-title">
+                        <span class="pre">Client's Feedback</span>
+                        <h2 class="title">What Our Client's Say After <br>
+                            Get Our Service</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-24 mt--30 mt_sm--10">
+                <div class="col-lg-12">
+                    <div class="swiper-silder-testimonials-wrapper">
+                        <div class="swiper mySwiper-testimonails" dir="ltr">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="single-testimonials-area-one">
+                                        <p class="disc">
+                                            "From the initial consultation to the final walk-through, every step was
+                                            handled with the
+                                            utmost professionalism and care. Their team listened closely to our needs
+                                            and created a plan
+                                            that fit our vision perfectly, all while keeping us within budget and on
+                                            schedule."
+                                        </p>
+                                        <div class="bottom-area">
+                                            <div class="user">
+                                                <img src="assets/images/testimonials/01.webp" alt="img">
+                                                <div class="info">
+                                                    <h5 class="title">Sophia Anne Harris</h5>
+                                                    <span>Property Manager at Green Valley Realty</span>
+                                                </div>
+                                            </div>
+                                            <div class="stars-area">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>4.8 <span>Ratings</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-testimonials-area-one">
+                                        <p class="disc">
+                                            "The team's commitment to quality and timely delivery was impressive. The
+                                            end result exceeded our expectations and left our clients thrilled with
+                                            their new space. Elever provided exceptional guidance and craftsmanship,
+                                            creating a building we are proud to call ours."
+                                        </p>
+                                        <div class="bottom-area">
+                                            <div class="user">
+                                                <img src="assets/images/testimonials/02.webp" alt="img">
+                                                <div class="info">
+                                                    <h5 class="title">Alena Joe Harris</h5>
+                                                    <span>Property Manager at Green Valley Realty</span>
+                                                </div>
+                                            </div>
+                                            <div class="stars-area">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>4.8 <span>Ratings</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-testimonials-area-one">
+                                        <p class="disc">
+                                            "From the initial consultation to the final walk-through, every step was
+                                            handled with the
+                                            utmost professionalism and care. Their team listened closely to our needs
+                                            and created a plan
+                                            that fit our vision perfectly, all while keeping us within budget and on
+                                            schedule."
+                                        </p>
+                                        <div class="bottom-area">
+                                            <div class="user">
+                                                <img src="assets/images/testimonials/01.webp" alt="img">
+                                                <div class="info">
+                                                    <h5 class="title">Sophia Anne Harris</h5>
+                                                    <span>Property Manager at Green Valley Realty</span>
+                                                </div>
+                                            </div>
+                                            <div class="stars-area">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>4.8 <span>Ratings</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-testimonials-area-one">
+                                        <p class="disc">
+                                            "From the initial consultation to the final walk-through, every step was
+                                            handled with the
+                                            utmost professionalism and care. Their team listened closely to our needs
+                                            and created a plan
+                                            that fit our vision perfectly, all while keeping us within budget and on
+                                            schedule."
+                                        </p>
+                                        <div class="bottom-area">
+                                            <div class="user">
+                                                <img src="assets/images/testimonials/01.webp" alt="img">
+                                                <div class="info">
+                                                    <h5 class="title">Sophia Anne Harris</h5>
+                                                    <span>Property Manager at Green Valley Realty</span>
+                                                </div>
+                                            </div>
+                                            <div class="stars-area">
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                                <p>4.8 <span>Ratings</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"><i class="fa-sharp-duotone fa-light fa-arrow-right"></i>
+                        </div>
+                        <div class="swiper-button-prev"><i class="fa-sharp-duotone fa-light fa-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts testimonials area end -->
+
+    <div class="cta-area-wrapper">
+        <div class="container-full">
+            <div class="row g-0 bg-primary">
+                <div class="col-xl-5">
+                    <div class="thumbnail">
+                        <img src="assets/images/cta/01.webp" alt="service">
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="cta-wrapper-inner">
+                        <div class="inner">
+                            <h2 class="title">
+                                Ready to Build Your Dream? <br>
+                                Schedule Your Consultation Today!
+                            </h2>
+                            <div class="button-wrapper">
+                                <a href="" class="rts-btn btn-white">More About Us</a>
+                                <a href="" class="rts-btn btn-white">Our Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- rts blog area start -->
+    <div class="rts-blog-area rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-center-style-one dark-title">
+                        <span class="pre">Latest News</span>
+                        <h2 class="title">Articles & Blog Posts</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-24 mt--30 mt_sm--10">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-card-one">
+                        <a href="" class="thumbnail">
+                            <img src="assets/images/blog/01.webp" alt="blog_card">
+                            <div class="tag-area">
+                                <span class="time">2Years Ago</span>
+                                <span class="location">Office</span>
+                            </div>
+                        </a>
+                        <div class="inner-wrapper">
+                            <a href="">
+                                <h5 class="title">Modern Construction Techniques Materials Changing</h5>
+                            </a>
+                            <p class="disc">
+                                Construction industry undergone transformations in recent years. With advancements
+                                technology & the introduction of new materials
+                            </p>
+                            <a href="" class="read-more-btn">Read More<i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- single blog area end -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-card-one">
+                        <a href="" class="thumbnail">
+                            <img src="assets/images/blog/02.webp" alt="blog_card">
+                            <div class="tag-area">
+                                <span class="time">2Years Ago</span>
+                                <span class="location">Office</span>
+                            </div>
+                        </a>
+                        <div class="inner-wrapper">
+                            <a href="">
+                                <h5 class="title">Streamlining Projects for Faster Cost Effective Results</h5>
+                            </a>
+                            <p class="disc">
+                                Construction industry undergone transformations in recent years. With advancements
+                                technology & the introduction of new materials
+                            </p>
+                            <a href="" class="read-more-btn">Read More<i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- single blog area end -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <!-- single blog area start -->
+                    <div class="rts-blog-card-one">
+                        <a href="" class="thumbnail">
+                            <img src="assets/images/blog/03.webp" alt="blog_card">
+                            <div class="tag-area">
+                                <span class="time">2Years Ago</span>
+                                <span class="location">Office</span>
+                            </div>
+                        </a>
+                        <div class="inner-wrapper">
+                            <a href="">
+                                <h5 class="title">Modern Construction Techniques Materials Changing</h5>
+                            </a>
+                            <p class="disc">
+                                Construction industry undergone transformations in recent years. With advancements
+                                technology & the introduction of new materials
+                            </p>
+                            <a href="" class="read-more-btn">Read More<i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- single blog area end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts blog area end -->
+
+
+    <!-- rts brand area start -->
+    <!-- <div class="rts-brand-area rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper mySwiper-brand-1" dir="ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/01.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/02.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/03.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/04.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/05.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/06.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/01.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/02.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/03.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/04.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/05.svg" alt="brand">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sigle-brand">
+                                    <img src="assets/images/brand/06.svg" alt="brand">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- rts brand area end -->
+
+
+
+
+
+
+    <!-- rts footer area start -->
+<div class="rts-footer-area rts-section-gapTop bg_footer-1 bg_image">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-area-footer-top">
+                    <div class="single-contact-area-box">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h6 class="title">Call Us Now</h6>
+                        <a href="#">+97128779490</a>
+                        <a href="#">(+971) 505983733</a>
+                    </div>
+                    <div class="single-contact-area-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h6 class="title">Office Time</h6>
+                        <a href="#">Mon-Fri: 8:30 am to 6:00 pm <br>
+                            Sat: 8:30 am to 2:00 pm</a>
+                    </div>
+                    <div class="single-contact-area-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h6 class="title">Need Support</h6>
+                        <a href="#">Info@rasconstructions.com</a>
+                        <!-- <a href="#">help-elver@gmail.com</a> -->
+                    </div>
+                    <div class="single-contact-area-box">
+                        <div class="icon">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        </div>
+                        <h6 class="title">Our Address</h6>
+                        <a href="#">Abu Dhabi, UAE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="nav-footer-wrapper-one">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul class="footer-float-nav">
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Projects</a></li>
+                                    <li><a href="">Updates</a></li>
+                                    <li><a href="">Mission</a></li>
+                                    <li><a href="">Inside</a></li>
+                                    <li><a href="">Contact</a></li>
+                                    <li><a href="">History</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer-wrapper-left-one">
+                    <a href="#" class="logo">
+                        <img src="assets/images/logo/2.png" alt="logo">
+                    </a>
+                    <p class="disc">
+                        we're committed to elevating the construction experience for our clients. With a passion for
+                        innovation and quality craftsmanship,
+                    </p>
+                    <div class="social-area-wrapper-one">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="footer-wrapper-right">
+                    <div class="single-nav-area-footer use-link">
+                        <h4 class="title">Useful Links</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>About Us</a></li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Our Gallery</a></li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Our Services</a>
+                            </li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Our Team</a></li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-nav-area-footer use-link">
+                        <h4 class="title">Quick Services</h4>
+                        <ul>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>General
+                                    Contracting</a>
+                            </li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Project
+                                    Management</a>
+                            </li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>New
+                                    Construction</a></li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Renovations &
+                                    Remodeling</a></li>
+                            <li><a href=""><i class="fa-regular fa-arrow-right-long"></i>Interior
+                                    Finishing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="single-nav-area-footer news-letter">
+                        <h4 class="title">Newsletter</h4>
+                        <p>Aplications prodize before front end ortals visualize front end</p>
+                        <form action="#">
+                            <input type="email" placeholder="Email Address" required>
+                            <button class="btn-subscribe mt--15">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-full copyright-area-one">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-wrapper">
+                                <p class="mb-0">Copyright &copy;
+                                    <script>
+                                        document.write(
+                                            new Date().getFullYear()
+                                        )
+                                    </script>
+                                    Ras Construction. All Rights Reserved.
+                                </p>
+                                <div class="right-nav">
+                                    <ul>
+                                        <li><a href="">Terms of use </a></li>
+                                        <li><a href=""> Privacy</a></li>
+                                        <li><a href="">Environmental Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- rts footer area end -->
+    <!-- progress area start -->
+<!-- <div id="elevate-load">
+    <div class="loader-wrapper">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div> -->
+<!-- progress area end -->
+
+<!-- rtl btn area start -->
+<!-- <div class="rtl-ltr-switcher-btn">
+    <span class="rtl show">View RTL</span>
+    <span class="ltr">View LTR</span>
+</div> -->
+<!-- rtl btn area end -->
+
+<!-- progress area start -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+            style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+        </path>
+    </svg>
+</div>
+<!-- progress area end -->
+
+
+<!-- offcanvase search -->
+<div class="search-input-area">
+    <div class="container">
+        <div class="search-input-inner">
+            <div class="input-div">
+                <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
+                <button><i class="far fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+</div>
+<div id="anywhere-home" class="">
+</div>
+
+<!-- scripts -->
+<script src="assets/js/plugins/jquery.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+<script src="assets/js/plugins/odometer.js"></script>
+<script src="assets/js/plugins/jquery-appear.js"></script>
+
+<script src="assets/js/plugins/metismenu.js"></script>
+<script src="assets/js/plugins/swiper.js"></script>
+<script src="assets/js/plugins/aos.js"></script>
+<script src="assets/js/plugins/nice-select.js"></script>
+<script src="assets/js/plugins/smooth-scroll.js"></script>
+<script src="assets/js/vendor/waw.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuSiPhoDaOJ7aqtJVtQhYhLzwwJ7rQlmA"></script>
+<script src="assets/js/vendor/marker.js"></script>
+<script src="assets/js/vendor/map-content.js"></script>
+<script src="assets/js/vendor/info-box.js"></script>
+<script src="../golfy/assets/js/plugins/magnific-popup.js"></script>
+
+<script src="assets/js/plugins/contact.form.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+<script>
+    // Initialize Banner Slider
+    var bannerSwiper = new Swiper(".mySwiper-banner-one", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        speed: 1000, // Slower transition speed
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".banner-pagination",
+            clickable: true,
+        },
+        effect: "fade",
+        fadeEffect: {
+            crossFade: true
+        },
+        on: {
+            init: function() {
+                // Add animation classes to elements
+                const slides = document.querySelectorAll('.swiper-slide');
+                slides.forEach(slide => {
+                    const content = slide.querySelector('.banner-inner-content-one');
+                    if (content) {
+                        content.style.transition = 'all 1s ease-in-out';
+                        content.style.opacity = '0';
+                        content.style.transform = 'translateY(20px)';
+                    }
+                });
+            },
+            slideChangeTransitionStart: function() {
+                // Animate out current slide
+                const activeSlide = this.slides[this.activeIndex];
+                const content = activeSlide.querySelector('.banner-inner-content-one');
+                if (content) {
+                    content.style.opacity = '0';
+                    content.style.transform = 'translateY(20px)';
+                }
+            },
+            slideChangeTransitionEnd: function() {
+                // Animate in new slide
+                const activeSlide = this.slides[this.activeIndex];
+                const content = activeSlide.querySelector('.banner-inner-content-one');
+                if (content) {
+                    content.style.opacity = '1';
+                    content.style.transform = 'translateY(0)';
+                }
+            }
+        }
+    });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const serviceSwiper = new Swiper(".mySwiper-service-one", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        speed: 1000,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            1500: {
+                slidesPerView: 3,
+            },
+            1199: {
+                slidesPerView: 3,
+            },
+            991: {
+                slidesPerView: 2,
+            },
+            767: {
+                slidesPerView: 2,
+            },
+            575: {
+                slidesPerView: 1,
+            },
+            0: {
+                slidesPerView: 1,
+            }
+        }
+    });
+});
+</script>
+
+</body>
+
+
+<!-- Mirrored from html.themewant.com/elever/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 30 May 2025 12:26:47 GMT -->
+</html>
+</html>
